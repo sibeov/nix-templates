@@ -91,7 +91,6 @@ in
               command = ''
                 echo "OSS CAD Suite: ${oss-cad-suite.version}"
                 echo "Yosys: $(yosys --version 2>/dev/null || echo 'not found')"
-                echo "nextpnr: $(nextpnr-ice40 --version 2>/dev/null || echo 'not found')"
               '';
             }
             {

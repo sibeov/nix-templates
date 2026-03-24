@@ -52,6 +52,7 @@
           # Additional SystemVerilog development tools
           extraTools = [
             pkgs.verible # SystemVerilog linter/formatter for IDE integration
+            pkgs.surfer # Extensible and Snappy Waveform Viewer
           ];
         in
         {
@@ -126,7 +127,9 @@
               echo "  nextpnr-*   - Place and route"
               echo "  icepack     - iCE40 bitstream"
               echo "  ecppack     - ECP5 bitstream"
+              echo "  GHDL        - VHDL simulator"
               echo "  gtkwave     - Waveform viewer (in oss-cad-suite)"
+              echo "  surfer      - Extensible and Snappy Waveform Viewer"
               echo "  verilator   - Verilog simulator (in oss-cad-suite)"
               echo "  verible-*   - SystemVerilog linter/formatter"
               echo ""
